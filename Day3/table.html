@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+
+    <!-- internal css -->
+
+    <style>
+        table,th,td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Header 1
+                </th>
+                <th>
+                    Header 2
+                </th>
+                <th>
+                    Header 3
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+
+            <tr>
+                <td>Row 3, Cell 1</td>
+                <td>Row 3, Cell 2</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    <center>Total</center> 
+                </td>
+                <td>
+                    7000
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+<br><br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr> 
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Row 3 Cell 1
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+<br><br><br>
+    <h1>My Schedule</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Day</td>
+                <td>Monday</td>
+                <td>Tuesday</td>
+                <td>Wednesday</td>
+                <td>Thursday</td>
+                <td>Friday</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Breakfast</td>
+                <td>In lair</td>
+                <td>with cronies</td>
+                <td>in lair</td>
+                <td>in lair</td>
+                <td>in lair</td>
+            </tr>
+
+            <tr>
+                <td>Morning</td>
+                <td colspan="2">Design traps</td>
+                <td colspan="3">Improve Hideout</td>
+            </tr>
+
+            <tr>
+                <td>Afternoon</td>
+                <td>train minions</td>
+                <td>train minions</td>
+                <td>train minions</td>
+                <td>train minions</td>
+                <td rowspan="2">world domination</td>
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td>manaical laughter</td>
+                <td>manaical laughter</td>
+                <td>manaical laughter</td>
+                <td>manaical laughter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Header</th>
+                <th>Header</th>
+                <th>Header</th> 
+                <th>Header</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+          <tr>
+            <td rowspan="4">span rows</td>
+            <td colspan="3">span columns</td>
+          </tr>
+
+          <tr>
+            <td colspan="2">span columns</td>
+            <td rowspan="3">span both</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">span rows</td>
+            <td>span columns</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">span both</td>
+          </tr>
+        </tbody>
+        <tr>
+            
+        </tr>
+    </table>
+
+</body>
+</html>

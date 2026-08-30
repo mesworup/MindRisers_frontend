@@ -1,0 +1,2 @@
+after pushed to github we can make the pages live
+    - settings > pages > deploy from main > done > (refresh)

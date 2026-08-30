@@ -1,0 +1,6 @@
+id = single => unique => roll_no =>5 =>student
+class => group => fulstack shrawan => 16 students
+
+
+for shortcut of next value to change
+    - ctrl + d
