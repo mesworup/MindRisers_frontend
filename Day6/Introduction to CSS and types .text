@@ -1,0 +1,22 @@
+CSS(Cascading Style Sheet): used for design
+
+Methods of CSS: 
+    - Inline CSS
+    - Internal CSS
+    - External CSS
+Their priority are also as above.
+
+Selectors:
+    - Element Selector
+    - id selector (#)
+    - class selector (.)
+    - grouping selector (,)
+    - universal selector (*)
+    - attribute selector
+        img[alt="icon"]
+    - pseudo selector
+
+    Syntax:
+        selector{
+            property: value;
+        }

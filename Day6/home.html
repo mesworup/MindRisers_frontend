@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+             font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            height: 70px;
+            background-color: rgb(240, 225, 240);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            column-gap: 50px;
+            list-style-type: none;
+        }
+
+        /* element selector  */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* id selector  */
+        #login {
+            margin-right: 20px;
+        }
+
+        #link {
+            background-color: rgb(83, 233, 83);
+            padding: 10px 20px;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .hero{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 60px;
+            background: #f5f7fa;
+        }
+        .lhead{
+            font-size: 50px;
+        }
+        p{
+            color: gray;
+        }
+        .hero p{
+            margin-bottom:30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <img src="..//Day4/Logo.svg" alt="logo" width="150px">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Feature</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">FAQ</a></li>
+        </ul>
+        <div>
+            <a href="" id="login">Login</a>
+            <a href="" id="link">Signup</a>
+        </div>
+    </nav>
+
+  <section class="hero">
+    <div>
+        <h1 class="lhead">Lessons and insights from 8 years</h1>
+        <p>Where to grow your business as a photographer: site or social media?</p>
+        <a href="" id="link">Register</a>
+    </div>  
+
+  <img src="Illustration.svg" alt="hero_image">
+  </section>
+
+
+
+
+</body>
+
+</html>
