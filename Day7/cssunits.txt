@@ -1,0 +1,11 @@
+Units: controls size, spacing and layout
+    -px
+    -rem
+    -em (parent snga relative hunxa if parent ko size lai multiply garxa)
+    -%
+    -vh
+    -vw
+
+root htmls font size is 16 px
+
+1 rem = 16 px
