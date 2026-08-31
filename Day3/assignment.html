@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
+    
+    <style>
+        form{
+            margin: 100px;
+            padding: 50px;
+            background-color: rgb(229, 176, 233);
+            width: 800px;
+        }
+        h1{
+            margin-left: 350px;
+        }
+
+        button{
+            background-color: rgb(171, 242, 168);
+            width: 100px;;
+            border-radius: 20%;
+        }
+        button:hover{
+            background-color: beige;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Student Registration Form</h1>
@@ -13,15 +37,18 @@
         <label for="">Roll no:</label>
         <input type="number">
         <br>
+        <br>
 
         <label for="">Student name:</label>
         <input type="text" placeholder="First Name">
         -
         <input type="text" placeholder="Last Name">
         <br>
+        <br>
 
         <label for="">Father's name:</label>
         <input type="text">
+        <br>
         <br>
 
         <label for="">Date of birth:</label>
@@ -30,18 +57,22 @@
         <input type="number" placeholder="Year">
         (DD-MM-YYYY)
         <br>
+        <br>
 
         <label for="">Mobile no:</label>
         <input type="number" placeholder="+91">-
         <input type="number">
         <br>
+        <br>
         
         <label for="">Email id:</label>
         <input type="email">
         <br>
+        <br>
 
         <label for="">Password:</label>
         <input type="password">
+        <br>
         <br>
 
         <label for="">Gender:</label>
@@ -49,6 +80,7 @@
         <input type="radio" id="male" value="male" name="confirm">
         <label for="female">Female:</label>
         <input type="radio" id="female" value="female" name="cofirm">
+        <br>
         <br>
         
         <label for="">Department:</label>
@@ -58,6 +90,7 @@
         <input type="checkbox">Civil
         <input type="checkbox">Mech
         <br>
+        <br>
 
         <label for="">Course:</label>
         <select>
@@ -66,17 +99,21 @@
             <option value="BECE">BECE</option>
         </select>
         <br>
+        <br>
 
         <label for="">Student Photo:</label>
         <input type="image"> Choose an image
+        <br>
         <br>
 
         <label for="">City:</label>
         <input type="text">
         <br>
+        <br>
 
         <label for="">Address</label>
         <input type="text">
+        <br>
         <br>
 
         <button>Register</button>
